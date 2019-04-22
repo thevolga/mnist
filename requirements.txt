@@ -1,0 +1,7 @@
+flask            # main_app.py
+tensorflow       # main_app.py generate_model.py test.py
+datetime         # main_app.py cassandra_test.py
+cassandra-driver # main_app.py cassandra_test.py
+matplotlib       # test.py
+argparse         # generate_model.py
+numpy            # cassandra_test.py
