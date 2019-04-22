@@ -16,7 +16,7 @@ Connect the cassandra container to my network.
 
 ## Connect dockers
 Connect the mnist container to the same network.
->docker run --name mnist --net=my-network --net-alias=mnsit -d -p 8000:5000 mnist:latest
+>docker run --name mnist --net=my-network --net-alias=mnist -d -p 8000:5000 mnist:latest
 
 
 ## Post your image to the service in the command line.
